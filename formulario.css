@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#titulo {
+    font-family: sans-serif;
+    color: #056831;
+    margin-left: 7%;
+} 
+
+#titulo2 {
+    font-family: sans-serif;
+    color: #056831;
+    margin-left: 7%;
+} 
+ 
+
+#check{
+    display: inline-block;
+}
+
+
+fieldset {
+    border: 0;
+}
+
+
+body{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #dddddd;;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #056831;
+    border-radius: 5px;
+}
+
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+/
+.grupo:after {
+    clear: both;
+}
+
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #056831;
+    display: block;
+}
+
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+
+.campo input[type="text"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #056831;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    display: block;
+}
+
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.tabela table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabela td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  justify-content: center
+}
+
+.tabela:nth-child(even) {
+  background-color: #056831;;
+  justify-content: center;
+}
+
+
+
